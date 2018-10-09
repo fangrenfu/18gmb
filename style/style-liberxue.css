@@ -412,8 +412,8 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
    .navbar-search form{width:180px;margin-right:55px;}
    .navbar-mobile-menu{display:inline-block;}
    .red-gradient{display:none;}
-   .meta-posts{display:none;}
-   .meta-comments{display:none;}
+/*   .meta-posts{display:none;}*/
+/*   .meta-comments{display:none;}*/
    .post-page{padding:100px 25px 0;}
    .common-page .post-list-item{width:100%;padding:10px 20px;}
    .footer-social{display:none;}
