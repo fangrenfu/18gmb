@@ -350,7 +350,7 @@ pre code::after {font-size: 1rem;color: #BFBFBF;position: absolute;top: 5px;righ
 /* ==========================================================================
    #footer
    ========================================================================== */
-.footer{position:relative;z-index:1;margin-top:0;padding-bottom:50px;background-color:#fff;}
+.footer{position:relative;z-index:-1;margin-top:0;padding-bottom:50px;background-color:#fff;}
 .footer-social{border-bottom:1px solid rgba(184,197,214,.2);    box-shadow: 0 -2px 8px 0 rgba(239, 241, 243, 0.59);}
 .footer-social .footer-container{max-width:940px;margin:0 auto;}
 .footer-social .social-list{padding:20px;text-align:center;}
