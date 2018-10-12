@@ -23,9 +23,10 @@
   <script>
       var oTop1 = $(document).scrollTop();
       $(window).on('scroll', function(){
-          alert(11111);
-          var oTop2 = $(document).scrollTop();
-          var st = $(this).scrollTop();
+          let oTop2 = $(document).scrollTop();
+          let st = $(this).scrollTop();
+          console.log(st);
+          console.log(oTop2);
           if(oTop2 > oTop1 && st > 100){
               $('#header').css('margin-top','-100px');
           }else{
