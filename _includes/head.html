@@ -29,9 +29,9 @@
           console.log(oTop1);
           console.log(oTop2);
           if(oTop2 > oTop1 && st > 100){
-              $('#header').css('margin-top','-100px');
+              $('#header').fadeOut();
           }else{
-              $('#header').css('margin-top',0);
+              $('#header').fadeIn();
           }
           oTop1 = $(document).scrollTop();
       });
