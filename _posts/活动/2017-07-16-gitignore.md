@@ -18,7 +18,7 @@ tags:
 
 # 创建gitignore文件
 
-```
+```java
 touch .gitignore
 ```
 ## 注释Git忽略规则
