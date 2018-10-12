@@ -39,4 +39,4 @@ redirect_from:
 
 8、成员合影
 
-<img src="{{ site.url }}/style/images/family"  height="330" width="495">
+<img src="{{ site.url }}/style/images/family.png"  height="330" width="495">
