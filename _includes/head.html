@@ -19,6 +19,20 @@
   <meta name="description" content="nothing is more practicla than a good theory" />
   <link href="https://cdn.bootcss.com/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
   <link href="{{ site.url }}/style/style-liberxue.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+      var oTop1 = $(document).scrollTop();
+      $(window).on('scroll', function(){
+          var oTop2 = $(document).scrollTop();
+          var st = $(this).scrollTop();
+          if(oTop2 > oTop1 && st > 100){
+              $('#header').css('margin-top','-100px');
+          }else{
+              $('#header').css('margin-top',0);
+          }
+          oTop1 = $(document).scrollTop();
+      });
+  </script>
 {% if page.date %}
   <meta content='{{ site.url }}{{ page.url }}' property='og:url' />
   <meta content="{{ site.url }}{{ page.url }}|{{ page.content | strip_html | strip_newlines | truncate: 120 }}" property='og:description' />
