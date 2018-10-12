@@ -23,6 +23,7 @@
   <script>
       var oTop1 = $(document).scrollTop();
       $(window).on('scroll', function(){
+          alert(11);
           var oTop2 = $(document).scrollTop();
           var st = $(this).scrollTop();
           if(oTop2 > oTop1 && st > 100){
